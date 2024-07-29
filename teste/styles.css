@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    max-width: 1200px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.contact-form, .contact-list {
+    padding: 20px;
+}
+
+.contact-form {
+    border-bottom: 1px solid #ddd;
+    width: 100%;
+}
+
+.contact-list {
+    width: 100%;
+}
+
+.contact-list-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    align-self: flex-start;
+    margin-bottom: 5px;
+}
+
+input {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 400px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+    padding-left: 30px; /* Adicionado */
+    padding-right: 30px; /* Adicionado */
+}
+
+.contact-info {
+    flex-grow: 1;
+    margin-right: 30px; /* Adicionado para afastar os botões do texto */
+}
+
+.contact-actions {
+    display: flex;
+    gap: 10px;
+    margin-left: 30px; /* Adicionado para mover os botões para o centro */
+}
+
+.contact-actions button {
+    background-color: #28a745;
+}
+
+.contact-actions button:hover {
+    background-color: #218838;
+}
+
+.contact-actions button:last-child {
+    background-color: #dc3545;
+}
+
+.contact-actions button:last-child:hover {
+    background-color: #c82333;
+}
