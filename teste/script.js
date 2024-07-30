@@ -67,7 +67,7 @@ document.addEventListener('DOMContentLoaded', () => {
         document.getElementById('nome').value = nome;
         document.getElementById('telefone').value = telefone;
         document.getElementById('email').value = email;
-        window.scrollTo(0, 0); // Rola a tela para o formulário
+        window.scrollTo(0, 0);
     };
 
     window.deleteContact = async function (id) {
