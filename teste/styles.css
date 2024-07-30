@@ -90,13 +90,13 @@ button:hover {
 
 .contact-info {
     flex-grow: 1;
-    margin-right: 30px; /* Adicionado para afastar os botões do texto */
+    margin-right: 30px; 
 }
 
 .contact-actions {
     display: flex;
     gap: 10px;
-    margin-left: 30px; /* Adicionado para mover os botões para o centro */
+    margin-left: 30px; 
 }
 
 .contact-actions button {
